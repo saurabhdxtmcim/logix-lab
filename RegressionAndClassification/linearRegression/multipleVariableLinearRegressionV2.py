@@ -88,7 +88,11 @@ def compute_gradient(x, y, w, b):
     for i in range(m):
         error = np.dot(x[i], w) + b - y[i]        # error = f_wb(x^(i)) - y^(i)
         for j in range(n):
-            dj_dw[j] += error * x[i, j]           # Accumulate ∂J/∂w_j
+            try:
+                dj_dw[j] += error * x[i, j]           # Accumulate ∂J/∂w_j
+            except Exception as e:
+                print(f"Unexpected error: {e} at i={i}, x[i]={x[i]}, w={w}, b={b}")
+                raise
         dj_db += error                            # Accumulate ∂J/∂b
     dj_dw /= m                                    # Average over m
     dj_db /= m

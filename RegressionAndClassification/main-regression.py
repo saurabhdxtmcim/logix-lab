@@ -39,7 +39,7 @@ import matplotlib.pyplot as plt
 # Visualize predictions and regressions
 plt.figure(figsize=(10, 5))
 
-# For linear regression: plot true vs predicted 
+# For linear regression: plot true vs predicted
 plt.subplot(1, 2, 1)
 plt.scatter(y_linear, y_pred_lin, alpha=0.7)
 plt.plot([y_linear.min(), y_linear.max()], [y_linear.min(), y_linear.max()], 'r--')

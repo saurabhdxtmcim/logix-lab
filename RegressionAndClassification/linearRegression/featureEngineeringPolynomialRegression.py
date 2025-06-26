@@ -1,4 +1,9 @@
 # ------------------------------------------------------------------------------
+# Copyright (c) 2025 Saurabh Dixit
+# Licensed under the MIT License. See LICENSE file in the project root for full license information.
+# ------------------------------------------------------------------------------
+
+# ------------------------------------------------------------------------------
 # Feature Engineering and Polynomial Regression Overview
 #
 # Linear regression models are built using the formula:

@@ -1,3 +1,8 @@
+# ------------------------------------------------------------------------------
+# Copyright (c) 2025 Saurabh Dixit
+# Licensed under the MIT License. See LICENSE file in the project root for full license information.
+# ------------------------------------------------------------------------------
+
 # Utilize scikit-learn to implement linear regression using Gradient Descent
 # ------------------------------------------------------------------------------
 # This code implements linear regression using Scikit-Learn's SGDRegressor, 

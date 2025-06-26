@@ -1,4 +1,9 @@
 # ------------------------------------------------------------------------------
+# Copyright (c) 2025 Saurabh Dixit
+# Licensed under the MIT License. See LICENSE file in the project root for full license information.
+# ------------------------------------------------------------------------------
+
+# ------------------------------------------------------------------------------
 # Problem Statement: Multivariate Linear Regression for Housing Prices
 #
 # This dataset includes three training examples, each with four features:
